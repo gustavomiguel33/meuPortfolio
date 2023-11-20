@@ -58,6 +58,15 @@ body {
   margin-bottom: 20px;
   color: #0D0D0D;
 }
+.main .titulo-sobreMim {
+  margin-top: 70px;
+  text-transform: uppercase;
+}
+.main .texto-sobreMim {
+  font-weight: 300;
+  line-height: 25px;
+  margin: 40px auto;
+}
 .main span {
   background-color: #2be29f;
   padding: 10px;

@@ -78,6 +78,17 @@ body {
     color: $cor1;
   }
 
+  .titulo-sobreMim {
+    margin-top: 70px;
+    text-transform: uppercase;
+  }
+
+  .texto-sobreMim {
+    font-weight: 300;
+    line-height: 25px;
+    margin: 40px auto;
+  }
+
   span {
     background-color: $cor5;
     padding: 10px;
