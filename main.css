@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 10px 8px 10px rgba(0, 0, 0, 0.192);
+}
+.header h1 {
+  margin-left: 50px;
+  color: #0D0D0D;
+}
+.header .navbar ul {
+  display: flex;
+  list-style: none;
+  margin-right: 80px;
+}
+.header .navbar ul li a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #0D0D0D;
+  padding-bottom: 2px;
+  transition: 200ms ease-in-out;
+}
+.header .navbar ul li a:hover {
+  color: #2be29f;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main img {
+  width: 220px;
+  height: 220px;
+  border-radius: 100%;
+  margin-top: 50px;
+  border: 1px double white;
+  padding: 3px;
+}
+.main h2 {
+  margin-top: 20px;
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #0D0D0D;
+}
+.main span {
+  background-color: #2be29f;
+  padding: 10px;
+  border-radius: 5px;
+}
+.main span b {
+  color: white;
+}
+.main p {
+  width: 700px;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.footer a {
+  margin: 0 15px;
+  font-size: 22px;
+}
+.footer a i {
+  color: #2be29f;
+  transition: 500ms all ease;
+}
+.footer a i:hover {
+  color: #85F2A0;
+}/*# sourceMappingURL=main.css.map */
