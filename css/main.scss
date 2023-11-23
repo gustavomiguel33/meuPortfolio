@@ -48,10 +48,8 @@ body {
             
           }
         }
-
       }
     }
-
   }
 }
 
@@ -61,7 +59,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  margin-top: 80px;
+  
 
   img {
     width: 220px;
@@ -78,17 +77,22 @@ body {
     color: $cor1;
   }
 
-  .titulo-sobreMim {
-    margin-top: 70px;
-    text-transform: uppercase;
-  }
+  .sobreMim {
 
-  .texto-sobreMim {
-    font-weight: 300;
-    line-height: 25px;
-    margin: 40px auto;
+    .titulo-sobreMim {
+      margin-top: 70px;
+      text-transform: uppercase;
+      text-align: center;
+    }
+  
+    .texto-sobreMim {
+      font-weight: 300;
+      line-height: 25px;
+      margin: 40px auto;
+      text-align: center;
+    }
+  
   }
-
   span {
     background-color: $cor5;
     padding: 10px;
@@ -99,11 +103,43 @@ body {
     }
   }
 
-  p {
+  .apresentacao-texto {
     width: 700px;
     text-align: center;
     margin-top: 15px;
     font-weight: bold;
+  }
+  
+
+  .certificacoes, .formacao {
+
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+      text-align: center;
+      margin: 30px auto 20px;
+      font-size: 20px;
+      background-color: $cor1;
+      color: $cor2;
+      font-weight: 300;
+      width: max-content;
+      padding: 5px 20px;
+      border-radius: 7px;
+    }
+
+    span {
+      margin: 5px auto;
+      width: 400px;
+      font-weight: 600;
+      text-align: center;
+
+    }
+
+    .texto-formacao {
+      width: 600px;
+      margin-bottom: 30px;
+    }
   }
 }
 
@@ -111,8 +147,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  margin: 200px auto 50px;
   
 
   a {
@@ -124,21 +159,13 @@ body {
       transition: 500ms all ease;
 
       &:hover {
-        color: $cor5;
+        color: $cor3;
       }
-    }
-  }
-
-  .certificacoes {
-
-    h3 {
-      text-align: center;
-      color: red;
     }
   }
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 1920px) and (min-width: 1400px) {
   .main {
 
 
@@ -153,9 +180,40 @@ body {
     h2 {
       margin: 20px auto;
       font-size: 35px;
-      
       color: $cor1;
     }
 
+  }
+}
+
+@media (max-width: 1368px) {
+
+  .main {
+
+    img {
+      width: 250px;
+      height: 250px;
+      border-radius: 100%;
+      border: 1px double white;
+      padding: 3px;
+    }
+  
+    h2 {
+      margin: 20px auto;
+      font-size: 25px;
+      color: $cor1;
+    }
+
+    span {
+      font-size: 14px;
+      background-color: $cor5;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    p {
+      font-size: 14px;
+      width: 600px;
+    }
   }
 }

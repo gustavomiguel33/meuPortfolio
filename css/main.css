@@ -43,7 +43,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  margin-top: 80px;
 }
 .main img {
   width: 220px;
@@ -58,14 +58,16 @@ body {
   margin-bottom: 20px;
   color: #0D0D0D;
 }
-.main .titulo-sobreMim {
+.main .sobreMim .titulo-sobreMim {
   margin-top: 70px;
   text-transform: uppercase;
+  text-align: center;
 }
-.main .texto-sobreMim {
+.main .sobreMim .texto-sobreMim {
   font-weight: 300;
   line-height: 25px;
   margin: 40px auto;
+  text-align: center;
 }
 .main span {
   background-color: #2be29f;
@@ -75,19 +77,44 @@ body {
 .main span b {
   color: white;
 }
-.main p {
+.main .apresentacao-texto {
   width: 700px;
   text-align: center;
   margin-top: 15px;
   font-weight: bold;
+}
+.main .certificacoes, .main .formacao {
+  display: flex;
+  flex-direction: column;
+}
+.main .certificacoes h3, .main .formacao h3 {
+  text-align: center;
+  margin: 30px auto 20px;
+  font-size: 20px;
+  background-color: #0D0D0D;
+  color: #F2F2F2;
+  font-weight: 300;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 5px 20px;
+  border-radius: 7px;
+}
+.main .certificacoes span, .main .formacao span {
+  margin: 5px auto;
+  width: 400px;
+  font-weight: 600;
+  text-align: center;
+}
+.main .certificacoes .texto-formacao, .main .formacao .texto-formacao {
+  width: 600px;
+  margin-bottom: 30px;
 }
 
 .footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  margin: 200px auto 50px;
 }
 .footer a {
   margin: 0 15px;
@@ -98,14 +125,10 @@ body {
   transition: 500ms all ease;
 }
 .footer a i:hover {
-  color: #2be29f;
-}
-.footer .certificacoes h3 {
-  text-align: center;
-  color: red;
+  color: #F26B1D;
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 1920px) and (min-width: 1400px) {
   .main img {
     width: 350px;
     height: 350px;
@@ -117,5 +140,29 @@ body {
     margin: 20px auto;
     font-size: 35px;
     color: #0D0D0D;
+  }
+}
+@media (max-width: 1368px) {
+  .main img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 1px double white;
+    padding: 3px;
+  }
+  .main h2 {
+    margin: 20px auto;
+    font-size: 25px;
+    color: #0D0D0D;
+  }
+  .main span {
+    font-size: 14px;
+    background-color: #2be29f;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .main p {
+    font-size: 14px;
+    width: 600px;
   }
 }/*# sourceMappingURL=main.css.map */
