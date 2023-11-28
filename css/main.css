@@ -66,15 +66,15 @@ body {
   margin-bottom: 20px;
   color: #0D0D0D;
 }
-.main .sobreMim {
+.main .about-me {
   margin-top: -80px;
 }
-.main .sobreMim .titulo-sobreMim {
+.main .about-me .title-aboute-me {
   margin-top: 70px;
   text-transform: uppercase;
   text-align: center;
 }
-.main .sobreMim .texto-sobreMim {
+.main .about-me .text-about-me {
   font-weight: 300;
   line-height: 25px;
   margin: 40px auto;
@@ -89,17 +89,20 @@ body {
 .main span b {
   color: white;
 }
-.main .apresentacao-texto {
-  width: 700px;
+.main .text-presentation {
+  width: 600px;
   text-align: center;
   margin-top: 15px;
   font-weight: bold;
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 21px;
 }
-.main .certificacoes, .main .formacao {
+.main .certifications, .main .training {
   display: flex;
   flex-direction: column;
 }
-.main .certificacoes h3, .main .formacao h3 {
+.main .certifications h3, .main .training h3 {
   text-align: center;
   margin: 30px auto 20px;
   font-size: 20px;
@@ -111,33 +114,40 @@ body {
   padding: 5px 20px;
   border-radius: 7px;
 }
-.main .certificacoes span, .main .formacao span {
+.main .certifications span, .main .training span {
   margin: 5px auto;
   width: 400px;
   font-weight: 600;
   text-align: center;
 }
-.main .certificacoes .texto-formacao, .main .formacao .texto-formacao {
+.main .certifications .training-text, .main .training .training-text {
   width: 600px;
   margin-bottom: 30px;
 }
 
-.footer {
+.footer .social-media {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 200px auto 50px;
 }
-.footer a {
+.footer .social-media a {
   margin: 0 15px;
   font-size: 22px;
 }
-.footer a i {
-  color: #85F2A0;
+.footer .social-media a i {
+  color: #F26B1D;
   transition: 500ms all ease;
 }
-.footer a i:hover {
-  color: #F26B1D;
+.footer .social-media a i:hover {
+  color: #2be29f;
+}
+.footer p {
+  text-align: center;
+  background-color: #0D0D0D;
+  padding: 15px 0;
+  color: #F2F2F2;
+  margin-top: 80px;
 }
 
 @media (max-width: 1399px) {

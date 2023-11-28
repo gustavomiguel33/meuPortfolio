@@ -86,17 +86,17 @@ body {
     color: $cor1;
   }
 
-  .sobreMim {
+  .about-me {
 
     margin-top: -80px;
 
-    .titulo-sobreMim {
+    .title-aboute-me {
       margin-top: 70px;
       text-transform: uppercase;
       text-align: center;
     }
   
-    .texto-sobreMim {
+    .text-about-me {
       font-weight: 300;
       line-height: 25px;
       margin: 40px auto;
@@ -105,6 +105,7 @@ body {
     }
   
   }
+
   span {
     background-color: $cor5;
     padding: 10px;
@@ -115,15 +116,18 @@ body {
     }
   }
 
-  .apresentacao-texto {
-    width: 700px;
+  .text-presentation {
+    width: 600px;
     text-align: center;
     margin-top: 15px;
     font-weight: bold;
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 21px;
   }
   
 
-  .certificacoes, .formacao {
+  .certifications, .training {
 
     display: flex;
     flex-direction: column;
@@ -148,7 +152,7 @@ body {
 
     }
 
-    .texto-formacao {
+    .training-text {
       width: 600px;
       margin-bottom: 30px;
     }
@@ -156,26 +160,38 @@ body {
 }
 
 .footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 200px auto 50px;
+
+  .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto 50px;
+    
   
-
-  a {
-    margin: 0 15px;
-    font-size: 22px;
-
-    i {
-      color: $cor4;
-      transition: 500ms all ease;
-
-      &:hover {
+    a {
+      margin: 0 15px;
+      font-size: 22px;
+  
+      i {
         color: $cor3;
+        transition: 500ms all ease;
+  
+        &:hover {
+          color: $cor5;
+        }
       }
     }
   }
+
+  p {
+    text-align: center;
+    background-color: $cor1;
+    padding: 15px 0;
+    color: $cor2;
+    margin-top: 80px;
+  }
 }
+
 
 
 
