@@ -10,7 +10,7 @@ body {
   background-color: #F2F2F2;
 }
 
-.header {
+.container-header {
   height: 120px;
   max-width: 100%;
   display: flex;
@@ -20,20 +20,20 @@ body {
   margin: 0 auto;
   background-color: #0D0D0D;
 }
-.header img {
+.container-header img {
   width: 250px;
   margin-left: 50px;
 }
-.header h1 {
+.container-header h1 {
   margin-left: 50px;
   color: #F2F2F2;
 }
-.header .navbar ul {
+.container-header .navbar ul {
   display: flex;
   list-style: none;
   margin-right: 80px;
 }
-.header .navbar ul li a {
+.container-header .navbar ul li a {
   margin: 0 20px;
   text-decoration: none;
   font-size: 16px;
@@ -42,7 +42,7 @@ body {
   padding-bottom: 2px;
   transition: 200ms ease-in-out;
 }
-.header .navbar ul li a:hover {
+.container-header .navbar ul li a:hover {
   color: #2be29f;
 }
 
