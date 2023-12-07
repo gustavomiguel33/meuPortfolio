@@ -20,7 +20,7 @@ body {
   margin: 0 auto;
   background-color: #0D0D0D;
 }
-.container-header img {
+.container-header .logotipo {
   width: 250px;
   margin-left: 50px;
 }
@@ -28,12 +28,18 @@ body {
   margin-left: 50px;
   color: #F2F2F2;
 }
-.container-header .navbar-nav ul {
+.container-header .navbar {
   display: flex;
+  align-items: center;
+}
+.container-header .navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
   margin-right: 80px;
 }
-.container-header .navbar-nav ul li a {
+.container-header .navbar ul li a {
   margin: 0 20px;
   text-decoration: none;
   font-size: 16px;
@@ -42,7 +48,7 @@ body {
   padding-bottom: 2px;
   transition: 200ms ease-in-out;
 }
-.container-header .navbar-nav ul li a:hover {
+.container-header .navbar ul li a:hover {
   color: #2be29f;
 }
 
@@ -54,8 +60,8 @@ body {
   margin-top: 150px;
 }
 .main img {
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   border-radius: 100%;
   border: 1px double white;
   padding: 3px;

@@ -23,7 +23,7 @@ body {
   margin: 0 auto;
   background-color: $cor1;
 
-  img {
+  .logotipo {
     width: 250px;
     margin-left: 50px;
   }
@@ -33,10 +33,15 @@ body {
     color: $cor2;
   }
 
-  .navbar-nav {
+  .navbar {
+    
+    display: flex;
+    align-items: center;
 
     ul {
       display: flex;
+      justify-content: center;
+      align-items: center;
       list-style: none;
       margin-right: 80px;
 
@@ -72,8 +77,8 @@ body {
   
 
   img {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     border-radius: 100%;
     border: 1px double white;
     padding: 3px;
