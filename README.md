@@ -1,2 +1,0 @@
-# meuPortfolio
-Meu portfolio.
