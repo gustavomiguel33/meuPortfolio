@@ -3,33 +3,4 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  background-color: #171810;
-}
-
-.header .header_content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.header .header_content .logo {
-  width: 300px;
-}
-.header .header_content .navbar {
-  margin-top: -60px;
-}
-.header .header_content .navbar ul {
-  display: flex;
-}
-.header .header_content .navbar ul li:hover {
-  text-decoration: underline;
-}
-.header .header_content .navbar ul li a {
-  margin: 0 15px;
-  text-decoration: none;
-  color: white;
-  font-family: "Share Tech Mono", monospace;
-  font-size: 1.1rem;
 }/*# sourceMappingURL=main.css.map */
