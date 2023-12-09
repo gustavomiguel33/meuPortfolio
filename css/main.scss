@@ -15,6 +15,7 @@ body {
   background-color: $cor1;
   height: auto;
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.555);
+  max-width: 100%;
 
   .header-box {
     display: flex;
@@ -50,22 +51,22 @@ body {
               color: $cor5;
             }
           }
-
         }
       }
-  
     }
   }
-
 }
 
 .main {
 
+  max-width: 90%;
+  margin: 0 auto;
+
   .box1 {
-    width: 900px;
+    max-width: 90%;
     padding: 30px 0;
     text-align: center;
-    margin-top: 90px;
+    margin: 120px auto;
     border: 1px solid black;
     border-radius: 10px;
   }
@@ -74,7 +75,8 @@ body {
 
     h2 {
       text-align: center;
-      margin-top: 80px;
+      font-size: 40px;
+      margin: 0 auto;
     }
   
     .main-projects {
