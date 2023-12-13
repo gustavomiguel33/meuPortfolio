@@ -66,4 +66,7 @@ body {
 .main .box2 .box-projects {
   display: flex;
   justify-content: space-around;
+}
+.main .box2 .box-projects .card .card1 {
+  margin-top: 80px;
 }/*# sourceMappingURL=main.css.map */

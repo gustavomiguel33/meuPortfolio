@@ -84,6 +84,15 @@ body {
     .box-projects {
       display: flex;
       justify-content: space-around;
+
+      .card {
+
+        .card1 {
+          margin-top: 80px;
+        }
+      }
+
+      }
     }
 
   }
@@ -92,4 +101,3 @@ body {
   
 
 
-}
