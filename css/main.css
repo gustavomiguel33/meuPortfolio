@@ -21,12 +21,12 @@ body {
   align-items: center;
 }
 .header .header-box .logo img {
-  width: 200px;
+  width: 250px;
   margin-left: 100px;
   margin-top: -20px;
 }
 .header .header-box .navbar {
-  margin-right: 40px;
+  margin-right: 80px;
 }
 .header .header-box .navbar ul {
   list-style: none;
@@ -34,10 +34,11 @@ body {
   margin: 15px;
 }
 .header .header-box .navbar ul li a {
-  margin: 0 15px;
+  margin: 0 20px;
   text-decoration: none;
   color: white;
   transition: all 500ms ease;
+  font-size: 20px;
 }
 .header .header-box .navbar ul li a:hover {
   color: #03FA6E;
@@ -49,14 +50,14 @@ body {
 }
 .main .box1 {
   max-width: 90%;
-  padding: 30px 0;
+  padding: 60px 0;
   text-align: center;
   margin: 120px auto;
   border: 1px solid black;
   border-radius: 10px;
 }
 .main .box2 {
-  margin: 50px auto;
+  margin: 150px auto;
 }
 .main .box2 h2 {
   text-align: center;
@@ -65,8 +66,12 @@ body {
 }
 .main .box2 .box-projects {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
-.main .box2 .box-projects .card .card1 {
-  margin-top: 80px;
+.main .box2 .box-projects .card {
+  max-width: 30%;
+  height: auto;
+}
+.main .box2 .box-projects .card img {
+  height: 300px;
 }/*# sourceMappingURL=main.css.map */
