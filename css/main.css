@@ -66,11 +66,24 @@ body {
 }
 .main .box2 .box-projects {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+}
+@media (max-width: 1000px) {
+  .main .box2 .box-projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .main .box2 .box-projects .card {
-  max-width: 30%;
+  max-width: 33%;
   height: auto;
+}
+@media (max-width: 1000px) {
+  .main .box2 .box-projects .card {
+    width: 90%;
+  }
 }
 .main .box2 .box-projects .card img {
   height: 300px;
