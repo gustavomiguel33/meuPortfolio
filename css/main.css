@@ -41,7 +41,7 @@ body {
   font-size: 20px;
 }
 .header .header-box .navbar ul li a:hover {
-  color: #03FA6E;
+  color: #0bda65;
 }
 
 .main {
@@ -65,8 +65,34 @@ body {
   margin: 0 auto 30px;
 }
 .main .box2 .box-projects {
+  margin: 80px auto;
   display: flex;
   justify-content: space-around;
+}
+.main .box2 .box-projects div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  padding: 30px 0;
+  border-radius: 15px;
+}
+.main .box2 .box-projects div a {
+  text-decoration: none;
+}
+.main .box2 .box-projects div span {
+  font-size: 20px;
+  background-color: #0bda65;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+}
+.main .box2 .box-projects div img {
+  width: 400px;
+}
+.main .box2 .box-projects div .link-projects {
+  margin-top: 110px;
 }
 @media (max-width: 1000px) {
   .main .box2 .box-projects {
