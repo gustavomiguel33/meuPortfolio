@@ -56,6 +56,12 @@ body {
   border: 1px solid black;
   border-radius: 10px;
 }
+.main .box1 .minha-foto {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
 .main .box2 {
   margin: 150px auto;
 }
@@ -77,6 +83,7 @@ body {
   border: 1px solid black;
   padding: 30px 0;
   border-radius: 15px;
+  max-width: 30%;
 }
 .main .box2 .box-projects div a {
   text-decoration: none;
@@ -94,22 +101,9 @@ body {
 .main .box2 .box-projects div .link-projects {
   margin-top: 110px;
 }
-@media (max-width: 1000px) {
-  .main .box2 .box-projects {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
 .main .box2 .box-projects .card {
   max-width: 33%;
   height: auto;
-}
-@media (max-width: 1000px) {
-  .main .box2 .box-projects .card {
-    width: 90%;
-  }
 }
 .main .box2 .box-projects .card img {
   height: 300px;

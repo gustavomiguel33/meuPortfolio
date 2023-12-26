@@ -70,6 +70,13 @@ body {
     margin: 120px auto;
     border: 1px solid black;
     border-radius: 10px;
+
+    .minha-foto {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
   }
 
   .box2 {
@@ -85,6 +92,8 @@ body {
     .box-projects {
 
       margin: 80px auto;
+      display: flex;
+      justify-content: space-around;
 
       div {
 
@@ -95,6 +104,7 @@ body {
         border: 1px solid black;
         padding: 30px 0;
         border-radius: 15px;
+        max-width: 30%;
 
         a {
           text-decoration: none;
@@ -118,23 +128,9 @@ body {
         }
       }
 
-      display: flex;
-      justify-content: space-around;
-
-      @media (max-width: 1000px) {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-
       .card {
         max-width: 33%;
         height: auto;
-
-        @media (max-width: 1000px) {
-          width: 90%;
-        }
 
         img {
           height: 300px;
