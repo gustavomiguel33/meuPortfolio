@@ -11,9 +11,9 @@ body {
 
 .header {
   background-color: #171810;
-  height: auto;
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.555);
   max-width: 100%;
+  height: 80px;
 }
 .header .header-box {
   display: flex;
@@ -21,9 +21,10 @@ body {
   align-items: center;
 }
 .header .header-box .logo img {
-  width: 250px;
-  margin-left: 100px;
-  margin-top: -20px;
+  width: 160px;
+  position: absolute;
+  top: -38px;
+  left: 150px;
 }
 .header .header-box .navbar {
   margin-right: 80px;
@@ -36,9 +37,10 @@ body {
 .header .header-box .navbar ul li a {
   margin: 0 20px;
   text-decoration: none;
-  color: white;
+  color: rgb(167, 165, 165);
   transition: all 500ms ease;
   font-size: 20px;
+  font-weight: 200;
 }
 .header .header-box .navbar ul li a:hover {
   color: #0bda65;
@@ -75,7 +77,7 @@ body {
   display: flex;
   justify-content: space-around;
 }
-.main .box2 .box-projects div {
+.main .box2 .box-projects .projects-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -83,24 +85,24 @@ body {
   border: 1px solid black;
   padding: 30px 0;
   border-radius: 15px;
-  max-width: 30%;
-  height: auto;
+  max-width: 31%;
+  max-width: auto;
 }
-.main .box2 .box-projects div a {
+.main .box2 .box-projects .projects-content a {
   text-decoration: none;
 }
-.main .box2 .box-projects div span {
+.main .box2 .box-projects .projects-content span {
   font-size: 20px;
   background-color: #0bda65;
   padding: 10px 20px;
   color: white;
   border-radius: 10px;
 }
-.main .box2 .box-projects div img {
+.main .box2 .box-projects .projects-content img {
   width: 400px;
   height: 300px;
 }
-.main .box2 .box-projects div button {
+.main .box2 .box-projects .projects-content button {
   margin-top: 110px;
 }
 .main .box2 .box-projects .card {
