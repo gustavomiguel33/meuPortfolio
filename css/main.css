@@ -7,17 +7,17 @@
 
 body {
   font-family: "Oswald", sans-serif;
-  background-color: rgb(233, 233, 233);
+  background-color: rgb(180, 180, 180);
 }
 
 header {
-  background-color: black;
+  background-color: #171810;
 }
 header .header .logo {
   margin-left: 70px;
 }
 header .header .logo img {
-  width: 150px;
+  width: 170px;
 }
 header .header .navbar {
   display: flex;
@@ -38,4 +38,25 @@ header .header .navbar ul a {
 }
 header .header .navbar ul a:hover {
   color: #0bda65;
+}
+
+.main {
+  margin-top: 150px;
+}
+.main .main-about {
+  border: 1px solid rgb(65, 65, 65);
+  padding: 30px 15px;
+  background-color: rgb(65, 65, 65);
+  color: white;
+  border-radius: 10px;
+}
+.main .main-about .main-about-content h1 {
+  color: #0bda65;
+  margin-bottom: 0;
+}
+.main .main-about .main-about-content h2 {
+  margin-bottom: 30px;
+}
+.main .main-about .main-about-content p {
+  margin: 3px auto;
 }/*# sourceMappingURL=main.css.map */

@@ -9,12 +9,12 @@
 
 body {
   font-family: 'Oswald', sans-serif;
-  background-color: rgb(233, 233, 233);
+  background-color: rgb(180, 180, 180);
 }
 
 
 header {
-  background-color: black; 
+  background-color: #171810; 
 
   .header {
 
@@ -22,7 +22,7 @@ header {
       margin-left: 70px;
       
       img {
-        width: 150px;
+        width: 170px;
       }
     }
 
@@ -51,6 +51,34 @@ header {
       }
     }
   }
+}
 
+.main {
 
+  margin-top: 150px;
+  
+  .main-about {
+    border: 1px solid rgb(65, 65, 65);
+    padding: 30px 15px;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    border-radius: 10px;
+
+    .main-about-content {
+      h1 {
+        color: $cor5;
+        margin-bottom: 0;
+      }
+
+      h2 {
+        margin-bottom: 30px;
+      }
+
+      p {
+        margin: 3px auto;
+      }
+    }
   }
+
+
+}
