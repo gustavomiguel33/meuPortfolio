@@ -7,56 +7,42 @@
 
 body {
   font-family: "Oswald", sans-serif;
-  background-color: rgb(180, 180, 180);
 }
 
 header {
-  background-color: #171810;
+  display: flex;
+  justify-content: space-between;
 }
-header .header .logo {
-  margin-left: 70px;
+header .photo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
 }
-header .header .logo img {
-  width: 170px;
+header .photo span {
+  margin-left: 20px;
 }
-header .header .navbar {
+header .photo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+header .links {
   display: flex;
   align-items: center;
+  margin-right: 40px;
 }
-header .header .navbar ul {
+header .links nav {
+  display: flex;
+}
+header .links nav ul {
   display: flex;
   list-style: none;
 }
-header .header .navbar ul a {
+header .links nav ul li {
   margin: 0 15px;
+}
+header .links nav ul li a {
   text-decoration: none;
-  color: white;
-  font-family: "Fira Sans Condensed", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  transition: all 500ms ease-in-out;
-}
-header .header .navbar ul a:hover {
-  color: #0bda65;
-}
-
-.main {
-  margin-top: 150px;
-}
-.main .main-about {
-  border: 1px solid rgb(65, 65, 65);
-  padding: 30px 15px;
-  background-color: rgb(65, 65, 65);
-  color: white;
-  border-radius: 10px;
-}
-.main .main-about .main-about-content h1 {
-  color: #0bda65;
-  margin-bottom: 0;
-}
-.main .main-about .main-about-content h2 {
-  margin-bottom: 30px;
-}
-.main .main-about .main-about-content p {
-  margin: 3px auto;
+  color: black;
 }/*# sourceMappingURL=main.css.map */
