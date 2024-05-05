@@ -8,6 +8,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: rgb(240, 233, 233);
+  height: 100vh;
 }
 
 header {
@@ -48,6 +49,11 @@ header .links nav ul li {
 header .links nav ul li a {
   text-decoration: none;
   color: black;
+  transition: 400ms;
+}
+header .links nav ul li a:hover {
+  color: #0bda65;
+  text-decoration: underline;
 }
 
 main {
@@ -55,7 +61,6 @@ main {
   background-position: center;
 }
 main .main {
-  height: 100vh;
   display: flex;
 }
 main .main .social {
@@ -79,6 +84,10 @@ main .main .social ul {
 main .main .social ul li a {
   color: rgb(116, 116, 116);
   font-size: 22px;
+  transition: 300ms;
+}
+main .main .social ul li a:hover {
+  color: #0bda65;
 }
 main .content-main {
   width: 60%;
@@ -94,8 +103,16 @@ main .content-main h5 {
 main .content-main .button {
   padding: 15px;
   text-transform: uppercase;
-  background-color: rgb(192, 19, 192);
   border: none;
   margin-top: 100px;
+  color: #0bda65;
+  border: 2px solid #0bda65;
+  border-radius: 7px;
+  font-weight: bold;
+  transition: 300ms;
+}
+main .content-main .button:hover {
+  border: 2px solid #0bda65;
+  background-color: #0bda65;
   color: white;
 }/*# sourceMappingURL=main.css.map */
