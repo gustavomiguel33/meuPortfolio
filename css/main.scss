@@ -154,12 +154,15 @@ main {
       }
     }
   }
-
-  .footer {
-    text-align: center;
-  }
+  
 }
 
+.footer {
+  p {
+    text-align: center;
+    margin: 60px 0;
+  }
+}
 /* Page about */
 
 .about-me {
