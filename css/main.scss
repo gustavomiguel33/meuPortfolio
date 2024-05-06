@@ -160,11 +160,14 @@ main {
 /* Page about */
 
 .about-me {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 70%;
-  margin: 100px auto;
+
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 100px auto;
+  }
   .photo {
     img {
       margin-right: 30px;
@@ -173,5 +176,4 @@ main {
       border-radius: 50%;
     }
   }
-
 }

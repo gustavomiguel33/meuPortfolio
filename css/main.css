@@ -122,7 +122,7 @@ main .content-main .button:hover {
 }
 
 /* Page about */
-.about-me {
+.about-me .box {
   display: flex;
   justify-content: center;
   align-items: center;
