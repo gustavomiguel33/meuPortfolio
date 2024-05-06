@@ -120,4 +120,19 @@ main .content-main .button:hover {
   border: 2px solid #0bda65;
   background-color: #0bda65;
   color: white;
+}
+
+/* Page about */
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 100px auto;
+}
+.about-me .photo img {
+  margin-right: 30px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
 }/*# sourceMappingURL=main.css.map */

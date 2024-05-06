@@ -157,3 +157,22 @@ main {
   
   }
 }
+
+/* Page about */
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 100px auto;
+  .photo {
+    img {
+      margin-right: 30px;
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+    }
+  }
+
+}
