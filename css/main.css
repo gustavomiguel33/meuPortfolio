@@ -105,7 +105,8 @@ main .content-main h5 {
   font-weight: 400;
 }
 main .content-main .button {
-  padding: 15px;
+  width: 150px;
+  padding: 10px;
   text-transform: uppercase;
   border: none;
   margin-top: 100px;
