@@ -108,13 +108,12 @@ main .content-main .button {
   width: 150px;
   padding: 10px;
   text-transform: uppercase;
-  border: none;
   margin-top: 100px;
   color: #0bda65;
   border: 2px solid #0bda65;
   border-radius: 7px;
   font-weight: bold;
-  transition: 300ms;
+  transition: 200ms;
 }
 main .content-main .button:hover {
   border: 2px solid #0bda65;
