@@ -120,6 +120,9 @@ main .content-main .button:hover {
   background-color: #0bda65;
   color: white;
 }
+main .footer {
+  text-align: center;
+}
 
 /* Page about */
 .about-me .box {
