@@ -18,6 +18,7 @@ body {
   background-repeat: no-repeat;
 }
 
+/* Index */
 
 header {
 
@@ -163,7 +164,7 @@ main {
     margin: 60px 0;
   }
 }
-/* Page about */
+/* About */
 
 .about-me {
 
@@ -182,4 +183,18 @@ main {
       border-radius: 50%;
     }
   }
+}
+
+/* Contact */
+
+.contact {
+  width: 450px;
+  height: 650px;
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 52px 330px;
+  border: 1px solid rgb(116, 116, 116);
+  border-radius: 10px;
 }
